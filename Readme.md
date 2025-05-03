@@ -1,5 +1,17 @@
 # INSYD Backend
 
+## Tech Stack
+
+- Express
+- Node.js
+- MongoDB
+- AWS SQS Service
+
+## Deployment
+
+- Deployed on AWS EC2 instance
+- Link --> https://insydai.rahulgupta.tech/api/v1/*
+
 ## API Endpoints
 
 ### Authentication (done)
@@ -37,10 +49,3 @@
 - `GET /api/notifications` - Get user notifications
 - `GET /api/notifications/unread-count` - Get unread notification count
 - `POST /api/notifications/mark-read` - Mark notifications as read
-
-## Tech Stack
-
-- Express
-- Node.js
-- MongoDB
-- AWS SQS Service
